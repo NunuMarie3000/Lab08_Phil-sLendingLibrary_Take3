@@ -8,6 +8,7 @@ namespace PhilsLendingLibrary
     private static readonly Backpack<Book> newBackpack = new Backpack<Book>();
     static void Main( string[] args )
     {
+      Console.WriteLine("this is a test");
       UserInterface();
     }
 
